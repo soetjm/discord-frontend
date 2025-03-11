@@ -2,7 +2,7 @@ import axios from 'axios';
 import {logout} from './shared/utils/auth'
 
 const apiClient = axios.create({
-    baseURL:'http://discord-backend-production-a2b4.up.railway.app/api',
+    baseURL:'https://discord-backend-production-a2b4.up.railway.app/api',
     timeout:1000
 }) 
 
